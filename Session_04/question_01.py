@@ -1,7 +1,6 @@
 import random
 
 ran_num = random.randint(0,100)
-print(ran_num)
 num = int(input('Make your guess between 0 to 100 :\n'))
 
 while num not in range (0,101) :
